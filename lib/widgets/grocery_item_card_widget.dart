@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:grocery_app/styles/currency.dart';
+import 'package:farmer_ecommerce/styles/currency.dart';
 
 import '../common_widgets/app_text.dart';
 import '../models/grocery_item.dart';
