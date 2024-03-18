@@ -4,6 +4,7 @@ import 'package:farmer_ecommerce/styles/currency.dart';
 import '../common_widgets/app_text.dart';
 import '../models/grocery_item.dart';
 import '../styles/colors.dart';
+import '../styles/currency.dart';
 
 class GroceryItemCardWidget extends StatelessWidget {
   GroceryItemCardWidget({Key? key, required this.item, this.heroSuffix})
@@ -65,7 +66,7 @@ class GroceryItemCardWidget extends StatelessWidget {
             Row(
               children: [
                 AppText(
-                  text: "\u20B5" + "${item.price.toStringAsFixed(2)}",
+                  text: "\u20B9" + "${item.price.toStringAsFixed(2)}",
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                 ),

@@ -8,6 +8,7 @@ class AppButton extends StatelessWidget {
   final EdgeInsets padding;
   final Widget? trailingWidget;
   final Function? onPressed;
+  final Color? color;
 
   const AppButton({
     Key? key,
@@ -17,6 +18,8 @@ class AppButton extends StatelessWidget {
     this.padding = const EdgeInsets.symmetric(vertical: 24),
     this.trailingWidget,
     this.onPressed,
+    this.color,
+
   }) : super(key: key);
 
   @override

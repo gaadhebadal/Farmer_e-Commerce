@@ -57,7 +57,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                         ),
                         Spacer(),
                         Text(
-                          "\u20B5" + "${getTotalPrice().toStringAsFixed(2)}",
+                          "\u20B9" + "${getTotalPrice().toStringAsFixed(2)}",
                           style: TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,

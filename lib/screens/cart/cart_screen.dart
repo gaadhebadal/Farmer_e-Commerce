@@ -57,6 +57,7 @@ class CartScreen extends StatelessWidget {
         onPressed: () {
           showBottomSheet(context);
         },
+        color: Colors.yellow,
       ),
     );
   }
@@ -65,11 +66,10 @@ class CartScreen extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(2),
       decoration: BoxDecoration(
-        color: Color(0xff489E67),
         borderRadius: BorderRadius.circular(4),
       ),
       child: Text(
-        "\u20B5" + "12.96",
+        "\u20B9" + "12.96",
         style: TextStyle(fontWeight: FontWeight.w600),
       ),
     );
