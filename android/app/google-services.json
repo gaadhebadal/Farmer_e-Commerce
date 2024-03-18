@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "454910813672",
+    "project_id": "farmcart-ed4c8",
+    "storage_bucket": "farmcart-ed4c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454910813672:android:cc2de8077d4f9afac5b05d",
+        "android_client_info": {
+          "package_name": "com.example.farmer_ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdjiwD2rlmAxuyn0X7ckgXX9z7-EENHro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
