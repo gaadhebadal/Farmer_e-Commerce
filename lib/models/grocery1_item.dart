@@ -30,7 +30,7 @@ var demoItems = [
       
   GroceryItem(
       id: "2",
-      name: "Applew",
+      name: "Apple",
       description: "Fresh apples from the farm",
       category: "fruits",
       price: 4.99,
